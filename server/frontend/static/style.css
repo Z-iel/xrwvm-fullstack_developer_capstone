@@ -3,6 +3,17 @@ img{
   align-self: center;
 }
 
+table{
+  border-collapse: collapse;
+  border: 1px solid #008080;
+}
+
+td {
+    border: 1px solid #222;
+    padding: 8px;
+  }
+
+
 .card{
   border: rgb(103, 102, 105) 3px solid;
   display: flex;  
@@ -123,4 +134,34 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.card-header.bg-dark-turquoise {
+    color: #fff;
+}
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.contact-info span {
+    margin: 2px 0;
+}
+.contact-info a {
+    color: #008080;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.btn-dark-turquoise {
+    background-color: #008080;
+    color: #fff;
+    border: none;
 }
